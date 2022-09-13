@@ -21,14 +21,24 @@
 title: My Portfolio
 email: lineishagibson@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  <h1>Hi. I'm Lineisha</h1>
-  <p>I'm  a  Full -Stack Web Designer, specializing in Front-End Design. Check out my work below  and feel free to get in touch with me to collaborate, or have me work on a project for you. </p>
+  Hi. I'm Lineisha  <br>
+  I'm  a  Full-Stack Web Designer, specializing in Front-End Design. Check out my work below  and feel free to get in touch with me to collaborate, or have me work on a project for you.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:  lejait05
 
 # Build settings
+
+
+kramdown:
+  auto_ids          : true
+  entity_output     : as_char
+  smart_quotes      : lsquo,rsquo,ldquo,rdquo
+  input             : GFM
+  hard_wrap         : false
+  footnote_nr       : 1
+
 #theme: minima
 remote_theme: pages-themes/architect@v0.2.0
 plugins:
