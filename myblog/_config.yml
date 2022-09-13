@@ -21,9 +21,8 @@
 title: My Portfolio
 email: lineishagibson@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  <h1>Hi. I'm Lineisha</h1>
+  <p>I'm  a  Full -Stack Web Designer, specializing in Front-End Design. Check out my work below  and feel free to get in touch with me to collaborate, or have me work on a project for you. </p>
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
